@@ -1,7 +1,7 @@
 node {
       parameters {
-        string(defaultValue: ''720766170633.dkr.ecr.us-east-2.amazonaws.com/jenkins-ecr'', description: 'ECR', name: 'ecr', trim: true)
-        string(defaultValue: 'ecr:us-east-2:aws-credentials', description: 'Credentials', name: 'creds', trim: true)
+        string(defaultValue: '720766170633.dkr.ecr.us-east-2.amazonaws.com/octopus-underwater-app', description: 'ECR', name: 'ecr', trim: true)
+        string(defaultValue: 'AWS', description: 'Credentials', name: 'creds', trim: true)
       }
     
     def app
